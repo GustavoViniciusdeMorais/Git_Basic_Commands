@@ -1,5 +1,5 @@
 <?php
 
 function read($db){
-    return $db->read();
+    return $db->read()->first();
 }
