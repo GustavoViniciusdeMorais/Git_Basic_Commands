@@ -17,6 +17,9 @@ git branch # shows the branch name where you are
 
 git branch -a # shows remote branches
 
-git merge [branch_name] # make branch merge
+# when you make a commit at branch master and update the same line at the same file
+# in other branch, when you merge you will have a conflict to fix editing the file again
+# at the master branch, accepting the new changes or not
+git merge [branch_name] # make branches merge
 
 ```
