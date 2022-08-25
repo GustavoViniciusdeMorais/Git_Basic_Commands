@@ -15,4 +15,6 @@ git checkout -b [nome_branch] # creat branch, it creates the branch from the bra
 
 git branch # shows the branch name where you are
 
+git branch -a # shows remote branches
+
 ```
