@@ -17,4 +17,6 @@ git branch # shows the branch name where you are
 
 git branch -a # shows remote branches
 
+git merge [branch_name] # make branch merge
+
 ```
