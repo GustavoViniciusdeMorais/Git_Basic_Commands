@@ -22,4 +22,8 @@ git branch -a # shows remote branches
 # at the master branch, accepting the new changes or not
 git merge [branch_name] # make branches merge
 
+git init --bare # run this command inside some folder that you want to use as local origin
+
+git remoate add local shh://localhost/Users/gustavovinicius/Documents/baregit/ # add the baregit folder as the receiver of the local folder commits
+
 ```
