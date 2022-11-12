@@ -28,4 +28,8 @@ git init --bare # run this command inside some folder that you want to use as lo
 
 git remoate add local shh://localhost/Users/gustavovinicius/Documents/baregit/ # add the baregit folder as the receiver of the local folder commits
 
+sudo git diff master..local
+
+sudo git diff master..local -- .env
+
 ```
