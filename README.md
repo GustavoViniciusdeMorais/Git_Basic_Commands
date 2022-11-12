@@ -32,4 +32,6 @@ sudo git diff master..local
 
 sudo git diff master..local -- .env
 
+git remote set-url origin [git repository http url with @ key]
+
 ```
