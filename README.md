@@ -37,4 +37,9 @@ git remote set-url origin [git repository http url with @ key]
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 
+# stash
+git stash save translations
+git statsh list
+git stash apply --index 0
+
 ```
