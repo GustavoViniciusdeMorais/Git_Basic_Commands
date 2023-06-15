@@ -38,7 +38,7 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 
 # stash
-git stash save translations
+git stash save [stash name]
 git statsh list
 git stash apply --index 0
 
