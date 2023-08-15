@@ -42,4 +42,7 @@ git stash save [stash name]
 git statsh list
 git stash apply --index 0
 
+# Clean every change
+sudo git clean -f --q .
+
 ```
