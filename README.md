@@ -45,4 +45,10 @@ git stash apply --index 0
 # Clean every change
 sudo git clean -f --q .
 
+# Local branch
+git checkout -b test
+git add .
+git commit -m "-test"
+git push --set-upstream origin test
+
 ```
