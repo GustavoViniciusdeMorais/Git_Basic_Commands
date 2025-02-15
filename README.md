@@ -46,9 +46,9 @@ git stash apply --index 0
 sudo git clean -f --q .
 
 # Local branch
-git checkout -b test
+git checkout -b network-scripting master
 git add .
 git commit -m "-test"
-git push --set-upstream origin test
+git push --set-upstream origin network-scripting
 
 ```
