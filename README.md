@@ -41,6 +41,7 @@ git config --global user.email "youremail@yourdomain.com"
 git stash save [stash name]
 git statsh list
 git stash apply --index 0
+git stash drop [stash ID]
 
 # Clean every change
 sudo git clean -f --q .
