@@ -1,6 +1,6 @@
 # Git commands
 
-```
+```bash
 git log -p # shows the changed files with the changed lines
 
 git log -p -2 # shows the last 2 commits in detail
@@ -55,4 +55,8 @@ git add .
 git commit -m "-test"
 git push --set-upstream origin network-scripting
 
+```
+### Daily
+```bash
+git log --oneline --since="1970-01-10 00:00:00" --until="1970-01-10 23:59:59" --author="$(git config user.name)"
 ```
