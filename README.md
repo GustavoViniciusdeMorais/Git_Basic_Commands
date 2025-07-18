@@ -60,5 +60,6 @@ git push --set-upstream origin network-scripting
 ```
 ### Daily
 ```bash
-git log --oneline --since="1970-01-10 00:00:00" --until="1970-01-10 23:59:59" --author="$(git config user.name)"
+echo $(date '+%Y-%m-%d')
+git log --oneline --since="$(date '+%Y-%m-%d') 00:00:00" --until="$(date '+%Y-%m-%d') 23:59:59" --author="$(git config user.name)"
 ```
