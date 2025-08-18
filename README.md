@@ -60,6 +60,12 @@ git add .
 git commit -m "-test"
 git push --set-upstream origin network-scripting
 
+# Reset merge
+git merge --abort
+
+# Remove phantom file
+git rm -f --cached ./path/file
+
 ```
 ### Daily
 ```bash
