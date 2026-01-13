@@ -20,6 +20,8 @@ git branch # shows the branch name where you are
 
 git branch -a # shows remote branches
 
+git branch -d branch-name # remove delete branch local
+
 # when you make a commit at branch master and update the same line at the same file
 # in other branch, when you merge you will have a conflict to fix editing the file again
 # at the master branch, accepting the new changes or not
