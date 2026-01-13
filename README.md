@@ -12,6 +12,7 @@ git checkout [branch_name or branch hash ID] # goes to some branch
 sudo git checkout -b local origin/local # checkout to origin branch and create local branch
 
 git reset HEAD~1 --soft # goes back one commit with the data to be commited
+git push --force # then push force
 
 git checkout -b [nome_branch] # creat branch, it creates the branch from the branch where you are
 
