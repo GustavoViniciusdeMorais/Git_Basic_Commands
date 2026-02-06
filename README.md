@@ -53,6 +53,7 @@ git stash save [stash name]
 git statsh list
 git stash apply --index 0
 git stash drop [stash ID]
+for val in {3..1}; do git stash drop $val; done && git stash list
 
 # Clean every change
 sudo git clean -f --q .
