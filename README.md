@@ -70,6 +70,9 @@ git merge --abort
 # Remove phantom file
 git rm -f --cached ./path/file
 
+# old clone with ssh
+git clone git@github.com:GustavoViniciusdeMorais/Git_Basic_Commands.git
+
 ```
 ### Daily
 ```bash
