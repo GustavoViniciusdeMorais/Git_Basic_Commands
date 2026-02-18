@@ -54,6 +54,8 @@ git statsh list
 git stash apply --index 0
 git stash drop [stash ID]
 for val in {3..1}; do git stash drop $val; done && git stash list
+git stash --help
+for val in {4..3}; do git stash show $val; done
 
 # Clean every change
 sudo git clean -f --q .
