@@ -1,5 +1,6 @@
 # Git commands
-- [Git Branching Flow Image](./images/gitFlowBranchingImage.jpg)
+- [Git Branching Flow Image](./images/gitBranches.png)
+- [Beginners Tutorial](./TutorialGitBasics.md)
 ```bash
 git log -p # shows the changed files with the changed lines
 
