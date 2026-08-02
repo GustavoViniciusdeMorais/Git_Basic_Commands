@@ -1,6 +1,6 @@
 # Tutorial Git Basics
 
-# Create the repo and initialize it
+### Create the repo and initialize it
 ```bash
 # update OS and install git
 apt update -y && apt install git -y
@@ -34,7 +34,7 @@ git config --global user.email "test@info.com"
 touch README.md
 git add README.md && git commit -m "initial commit" && git push origin main
 ```
-# Create new branch
+### Create new branch
 ```bash
 git checkout -b [new branch name] main
 git push --set-upstream origin [new branch name]
