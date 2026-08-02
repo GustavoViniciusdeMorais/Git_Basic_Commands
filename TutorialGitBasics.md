@@ -19,6 +19,10 @@ ls -lha
 # verifies if dir is a git bare
 git rev-parse --is-bare-repository
 
+# check working being done with
+git show -q [branch name]
+git log [branch name] -p -1
+
 # choose a path and clone the repo
 cd /client/ && git clone /server/crud.git && cd crud
 
@@ -29,4 +33,11 @@ git config --global user.email "test@info.com"
 # create a file, add to stage, commit, push to origin
 touch README.md
 git add README.md && git commit -m "initial commit" && git push origin main
+```
+# Create new branch
+```bash
+git checkout -b [new branch name] main
+git push --set-upstream origin [new branch name]
+git remote show origin | head -10
+git push origin [new branch name]
 ```
