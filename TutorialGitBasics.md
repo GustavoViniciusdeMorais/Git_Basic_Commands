@@ -62,3 +62,16 @@ git remote add [remote name] /server/backup.git/
 git push --set-upstream [remote name] [new branch name]
 git push [remote name] [branch name]
 ```
+### Revert changes
+```bash
+git log --oneline | head -3
+# just see the files of commit
+git checkout [hash commit]
+git revert HEAD # undo last commit
+# --soft goes back with data to be commited
+git reset HEAD~1 --hard # undo the undo
+# goes back to remove code
+git reset --hard [hash commit]
+# if want overwrite
+git push [remote name] [branch name] --force
+```
