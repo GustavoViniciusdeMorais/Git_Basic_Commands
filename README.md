@@ -1,4 +1,4 @@
-# Git commands
+****# Git commands
 - [Git Branching Flow Image](./images/gitBranches.png)
 - [Beginners Tutorial](./TutorialGitBasics.md)
 ```bash
@@ -81,4 +81,8 @@ git clone git@github.com:GustavoViniciusdeMorais/Git_Basic_Commands.git
 ```bash
 echo $(date '+%Y-%m-%d')
 git log --oneline --since="$(date '+%Y-%m-%d') 00:00:00" --until="$(date '+%Y-%m-%d') 23:59:59" --author="$(git config user.name)"
+```
+### Overwrite file with old version by hash commit
+```bash
+git show <commit-hash>:path/to/file > path/to/file
 ```
